@@ -30,7 +30,7 @@ under the License.
     <property name="jpaVendorAdapter">
       <bean class="org.springframework.orm.jpa.vendor.OpenJpaVendorAdapter">
         <property name="showSql" value="false"/>
-        <property name="generateDdl" value="true"/>
+        <property name="generateDdl" value="false"/>
         <property name="databasePlatform" value="${jpa.dialect}"/>
       </bean>
     </property>
