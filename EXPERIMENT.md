@@ -17,4 +17,5 @@ Installation
 
 1. In Eclipse go to _File > Import_ and select _Maven > Existing Maven Projects_
 2. Select ``SYNCOPE_DIR`` as _Root Directory_ and select **only** ``/pom.xml``, ``build-tools/pom.xml``, ``common/pom.xml``, ``client/pom.xml``, and ``core/pom.xml``
-3. Check installation by running the tests: On the project ``syncope-core`` go to _Run As > Maven test_
+3. Set [the path](https://github.com/hschink/syncope/blob/experiment/core/src/test/resources/persistence.properaties#L18) to a current instance of the appfuse databse. You find [an instance in the repository](https://github.com/hschink/syncope/blob/experiment/syncope_db.mv.db).
+4. Check installation by running the tests: On the project ``syncope-core`` go to _Run As > Maven test_
